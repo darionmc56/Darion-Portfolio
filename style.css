@@ -19,13 +19,13 @@
 
 .background-img h1 {
   position: absolute;
-  top: 5%;
+  top: 59%;
   left: 50%;
   transform: translateX(-50%);
   font-family: "Fruktur", system-ui;
-  font-size: 9rem; /* Make it big and bold */
-  opacity: 0.4; /* Optional: makes it look more "behind" */
-  z-index: -2; /* Places it behind the background image */
+  font-size: 9rem; 
+  opacity: 0.4; 
+  z-index: -2; 
   text-align: center;
   color: #fff;
 }
@@ -34,6 +34,13 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 1.5rem;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid red;
+  padding: 0.3rem 0.8rem;
 }
 
 .search-bar {
