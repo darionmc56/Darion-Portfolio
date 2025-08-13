@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Darion Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/DPicon.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,17 +14,23 @@
     />
   </head>
   <body>
-    <nav>
-      <a href="Intern">Want an Intern?</a>
-      <a href="Home">Home</a>
-      <a href="Contact">Contact</a>
-    </nav>
     <section class="background-img">
-      <h1>Darion</h1>
+      <nav>
+        <a href="Intern">Want an Intern?</a>
+        <a href="Home">Home</a>
+        <a href="Contact">Contact</a>
+      </nav>
+      <span class="name-title">Hi, My name is Darion</span>
+      <span class="portfolio-title">Your AI portfolio</span>
+      <section class="search-section">
+        <form class="search-bar" action="">
+          <input type="text" placeholder="Ask me anything?" />
+          <button>
+            <img src="image/ai-technology.png" alt="search-icon" />
+          </button>
+        </form>
+      </section>
     </section>
-    <form class="search-bar" action="">
-      <input type="text" placeholder="Ask me anything?" />
-      <button><img src="image/ai-technology.png" alt="search-icon" /></button>
-    </form>
   </body>
+  <script src="index.js"></script>
 </html>

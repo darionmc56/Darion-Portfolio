@@ -17,17 +17,24 @@
   z-index: -1;
 }
 
-.background-img h1 {
+.background-img .name-title{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 2rem;
+  z-index: -2;
+  text-align: center;
+  color: black;
+}
+
+.background-img .portfolio-title{
   position: absolute;
   top: 59%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: "Fruktur", system-ui;
-  font-size: 9rem; 
-  opacity: 0.4; 
-  z-index: -2; 
+  left: 10%;
+  font-size: 3rem;
+  z-index: -2;
   text-align: center;
-  color: #fff;
+  color: black;
 }
 
 nav {
@@ -36,18 +43,26 @@ nav {
   margin: 1.5rem;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: black;
-  border: 1px solid red;
+  border: 1px solid;
   padding: 0.3rem 0.8rem;
+  border-radius: 11px;
+}
+
+.search-section {
+  position: absolute;
+  bottom: 7.5rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .search-bar {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(229, 218, 206);
   display: flex;
   align-items: center;
-  max-width: 21rem;
+  width: 27rem;
   border-radius: 60px;
   padding: 0.8rem 1.2rem;
 }
@@ -57,6 +72,10 @@ nav a{
   flex: 1;
   border: none;
   outline: none;
+  font-weight: bold;
+}
+.search-bar input::placeholder {
+  color: grey;
 }
 
 .search-bar button {
@@ -69,3 +88,5 @@ nav a{
   height: 20px;
   width: 20px;
 }
+
+
